@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:id="@+id/tv_setting"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:background="#3F51B5"
+            android:layout_width="72dp"
+            android:text="系统配置"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:text="基准重量：50"
+        android:textColor="@android:color/white"
+        android:id="@+id/tv_show_base_weight"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp">
+    </TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:text="偏移重量：10"
+        android:textColor="@android:color/white"
+        android:id="@+id/tv_show_base_py_weight"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp">
+    </TextView>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="实时重量：20"
+        android:id="@+id/tv_show_rel_weight"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="40dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="最终重量：20"
+        android:id="@+id/tv_show_weight"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="40dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/tv_show_rel_count"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="实时状态：1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:text="实时计数：50"
+        android:textColor="@android:color/white"
+        android:id="@+id/tv_show_count_result"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp">
+    </TextView>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_start"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Start" >
+    </Button>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bt_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Stop" >
+    </Button>
+
+</LinearLayout>

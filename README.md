@@ -34,3 +34,4 @@ dependencies {
 SerialPort.setSuPath("/system/xbin/su");
 ```
 # Android-Serilport-API
+# Android-Serilport-API

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical" >
+
+   <TextView
+       android:id="@+id/tv_wifi"
+       android:layout_marginRight="10dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="20dp"
+       android:background="@color/colorPrimary"
+       android:text="WIFI设置"
+       android:textSize="20dp"
+       android:gravity="center"
+       android:textColor="@android:color/white"
+       android:layout_width="match_parent"
+       android:layout_height="48dp" />
+    <View
+        android:layout_marginTop="100dp"
+        android:background="#3c3c3c"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="服务器IP:"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/ev_ip"
+            android:layout_marginLeft="10dp"
+            android:text="58.61.143.133"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </LinearLayout>
+    <View
+        android:background="#3c3c3c"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:text="服务器PORT:"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+        <EditText
+            android:id="@+id/ev_port"
+            android:layout_marginLeft="10dp"
+            android:text="1620"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </LinearLayout>
+    <View
+        android:background="#3c3c3c"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="最小重量:"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+        <EditText
+            android:id="@+id/ev_weight"
+            android:layout_marginLeft="10dp"
+            android:text="1000"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </LinearLayout>
+    <View
+        android:background="#3c3c3c"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="0出现后连续多少个1开始计数:"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+        <EditText
+            android:id="@+id/ev_count_1"
+            android:layout_marginLeft="10dp"
+            android:text="1"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </LinearLayout>
+    <View
+        android:background="#3c3c3c"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <Button
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ButtonConsole"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Save" />
+</LinearLayout>
